@@ -1,0 +1,55 @@
+.a {
+
+    background-color: green;
+    display: flex;
+    
+    
+    
+    
+}
+
+span {
+
+     background-color: red;
+ 
+}
+
+span {
+
+    background-color: green;
+    
+    display: block;
+    
+    }
+
+.contenedor-padre{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightgray;
+}
+.c1{
+    background-color: rgb(99, 99, 230);
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px;
+    margin: 10px;
+}
+.c2{
+    background-color: rgb(209, 88, 88);
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px;
+    margin: 10px;
+}
+.c2:hover{
+    background-color: rgb(84, 163, 84);
+}
+.c2:focus{
+    background-color: black;
+}
