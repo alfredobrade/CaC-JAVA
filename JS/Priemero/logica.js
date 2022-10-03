@@ -52,6 +52,10 @@ for (i = 0 ; i < 10 ; i++){
     console.log(i)
 }
 
+console.log(new Date().getDay()) // retorna el numero de dia de la semana empezando en domingo 0
+console.log(new Date().getDate()) // esta te devuelve el dia fecha
+console.log(new Date().getMonth()) // devuelve mes
+console.log(new Date().getFullYear()) // devuelve el año completo
 
 
 alert("*----termino el programa!!!!----*")
